@@ -4,13 +4,14 @@ Uses [LittleChef](https://github.com/tobami/littlechef) and (Berkshelf)[http://b
 
 ## CAPABILITIES
 
-### TODO
-
  * DHCP
  * Proxy
  * DNS
 
-### TODO (Optional)
+### TODO
 
+ * Mirror cdnjs
  * Open source git server
+ * IRC server
+
 
