@@ -1,0 +1,18 @@
+{
+    "ipaddress": "192.168.1.50",
+    "name": "nan",
+    "run_list": [
+        "recipe[nan-base]"
+    ],
+
+    "admins": {
+      "mp": {
+        "name": "Michael Pearson",
+        "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA3p8Ez2wVQT1LeAHhfXH9Fo+yTI9OKZ7Iipr2WbtsLcxnKUREDYRtfDgV9PsFc9+ZaUezzg6CbfnwVQcKWN50JUVuSmcs/L2dZ31B8SH6WdJ1qJtYV5lpxMDpPy9mi7AKFnslyrAQuvZ1CxmYn31G0im2PxwgzeaxPDHiLu25vP4gL67SmV0lCxL46MCLyUT4FvywdvfIKUUJv1mwpHDnsgikfE2+BBFiodx3sNZv2kf12EVbpPvc1V0mc4u006B5qEeO6/OWeHn4HQ4P8eyIhR054UMv7rapitxdMgxjDJN2fPoFVmin6rIeE7VZonRwaHWXfF6twcxlgut3Po/MnQ== mpearson@REAV006198.local"
+      },
+      "alan": {
+        "name": "Alan Harper",
+        "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9WkDyfzfB/wu7v462zU+QpBQK3Of6OhyHg3peNr6UdQCn3TUb7Pc1FNwCSwLb7tpc1mGPWMXx/U6wej/bFeBIAncnfozvwOfuD/JZSi4SQ01u+U+tVEIgv1kQjklYOi00Eo+PfJEpYn+buMcMPZiOYvENOMUp28DhgackQeSANzj4aoxteMyzyQF/qTRxKKYn9FbFZOMZHRENSTdvbEYTTLFF2uDShYC8E/pQCaXH5/mM+/qmcsxrZ8MeEMdl77OMYqhU7Bwyot6CMP36qKWriWE4dVYvnZ1CUULYoJbGuKfamMA98ETUU1J62bSIs2FNDBAuSvmnd+nnWxkr5bFB alan"
+      }
+    }
+}
