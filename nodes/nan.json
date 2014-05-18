@@ -2,7 +2,7 @@
     "ipaddress": "192.168.1.50",
     "name": "nan",
     "run_list": [
-        "recipe[nan-base]","recipe[nan-squid]"
+        "recipe[nan-base]","recipe[nan-squid]","recipe[nan-ubiquiti]"
     ],
 
     "admins": {
