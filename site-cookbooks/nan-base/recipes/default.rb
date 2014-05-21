@@ -31,11 +31,6 @@ end
   end
 end
 
-# Nope.jpg
-package 'apparmor' do
-  action :remove
-end
-
 # Permissive, nopasswd sudoers
 cookbook_file "/etc/sudoers" do
   mode 0440
