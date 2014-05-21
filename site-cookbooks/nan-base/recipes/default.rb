@@ -51,6 +51,11 @@ end
 link "/usr/bin/node" do
   to "/usr/bin/nodejs"
 end
+
+link "/usr/bin/docker" do
+  to "/usr/bin/docker.io"
+end
+
 # WEBSCALE
 apt_repository "10gen" do
   uri "http://downloads-distro.mongodb.org/repo/ubuntu-upstart"
