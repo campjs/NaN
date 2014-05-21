@@ -16,6 +16,13 @@ define :admin_user, shell: '/bin/bash' do
     system true
   end
 
+  group 'docker' do
+    action :manage
+    append true
+    members name
+    system true
+  end
+
   directory "#{home_dir}/.ssh" do
     owner name
     group name
