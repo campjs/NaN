@@ -14,7 +14,7 @@ apt_repository "10gen" do
   key "C0A52C50"
 end
 
-package "mongodb-10gen"
+package "mongodb-org"
 package "unifi"
 
 link "/usr/lib/jvm/java-6-openjdk" do
