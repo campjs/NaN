@@ -25,7 +25,6 @@ end
   mysql-server
   postgresql
   redis-server
-
 }.each do |p|
   package p do
     action :install
@@ -52,3 +51,14 @@ end
 link "/usr/bin/node" do
   to "/usr/bin/nodejs"
 end
+# WEBSCALE
+apt_repository "10gen" do
+  uri "http://downloads-distro.mongodb.org/repo/ubuntu-upstart"
+  distribution "dist"
+  components ["10gen"]
+  keyserver "keyserver.ubuntu.com"
+  key "C0A52C50"
+end
+
+package "mongodb-org"
+
