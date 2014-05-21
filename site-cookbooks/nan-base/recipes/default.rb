@@ -20,6 +20,8 @@ end
   iotop
   docker.io
   tcsh
+  nodejs
+  npm
 }.each do |p|
   package p do
     action :install
@@ -41,4 +43,8 @@ node[:admins].each do |username, data|
     public_key data[:public_key]
     full_name data[:name]
   end
+end
+
+link "/usr/bin/node" do
+  to "/usr/bin/nodejs"
 end
