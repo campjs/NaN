@@ -22,6 +22,10 @@ end
   tcsh
   nodejs
   npm
+  mysql-server
+  postgresql
+  redis-server
+
 }.each do |p|
   package p do
     action :install
