@@ -60,5 +60,8 @@ apt_repository "10gen" do
   key "C0A52C50"
 end
 
-package "mongodb-org"
+package "mongodb-org" do
+  options "--force-yes"
+end
+
 
