@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "golang": {
+      "path": "."
+    },
+    "apt": {
+      "locked_version": "2.3.4"
+    },
+    "minitest-handler": {
+      "locked_version": "1.1.4"
+    },
+    "golang_test": {
+      "path": "./test/cookbooks/golang_test"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    }
+  }
+}
